@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "html.autoClosingTags": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": false,
+  "files.eol": "\n",
+  "cSpell.words": ["clsx", "reduxjs"]
+}

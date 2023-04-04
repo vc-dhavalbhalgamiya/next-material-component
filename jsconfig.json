@@ -1,7 +1,9 @@
+/*
+ * 'import-resolver-typescript/lib' not found error in jsconfig.json
+ * https://stackoverflow.com/a/69242401
+ */
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "baseUrl": "."
   }
 }
