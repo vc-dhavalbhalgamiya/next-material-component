@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import '../styles/globals.css';
-import ThemeProvider from '../core/theme/theme';
+import ThemeProvider from "core/theme/theme";
+import Head from "next/head";
+import "styles/globals.css";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;

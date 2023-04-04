@@ -1,6 +1,6 @@
-import { pxToRem } from "../../utils";
+import { pxToRem } from "utils";
 
-const FONT_PRIMARY = 'Poppins'; // Google Font
+const FONT_PRIMARY = "Poppins"; // Google Font
 // Need to define line height and fontSize for responsive(sm,md,lg) and default view.
 const typography = {
   fontFamily: FONT_PRIMARY,
