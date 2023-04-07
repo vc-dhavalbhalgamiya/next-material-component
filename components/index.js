@@ -1,4 +1,4 @@
 export * from "./Button";
 export * from "./Header";
 export * from "./Page";
-export * from "./LoginForm";
+export * from "./Login";

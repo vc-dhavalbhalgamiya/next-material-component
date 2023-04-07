@@ -1,11 +1,9 @@
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 
-import LoginForm from "components/LoginForm/LoginForm";
-import LoginWithSocial from "components/LoginWithSocial/LoginWithSocial";
 import Image from "next/image";
 import Grid from "@mui/material/Grid";
-import LoginFormWithSocial from "components/LoginFormWithSocial/LoginFormWithSocial";
+import { LoginForm, LoginFormWithSocial, LoginWithSocial } from "components";
 
 function HomePage() {
   return (
