@@ -23,12 +23,12 @@ const LoginFormWithSocial = () => {
   return (
     <Box
       sx={{
-        maxWidth: { xs: 320, sm: "75%" },
+        maxWidth: { xxs: 320, sm: "75%" },
         mx: "auto",
         border: "1px solid",
         borderColor: "common.borderColor",
         borderRadius: 5,
-        p: { xs: 2, sm: 2, md: 3 },
+        p: { xxs: 2, sm: 2, md: 3 },
         boxShadow: "0 5px 10px rgba(0,0,0,0.3)",
       }}
     >
@@ -45,13 +45,13 @@ const LoginFormWithSocial = () => {
               width={40}
               height={40}
             />
-            <Typography sx={{ ml: { xs: 1, sm: 2 } }} variant="h6">
+            <Typography sx={{ ml: { xxs: 1, sm: 2 } }} variant="h6">
               Flowbite
             </Typography>
           </Box>
         </Link>
       </Box>
-      <Typography variant="h5" sx={{ textAlign: { sm: "left", xs: "center" } }}>
+      <Typography variant="h5" sx={{ textAlign: { sm: "left", xxs: "center" } }}>
         Welcome back
       </Typography>
       <Typography
@@ -68,8 +68,8 @@ const LoginFormWithSocial = () => {
       </Typography>
 
       <Box component="form" sx={{ width: 1, mt: 3 }} noValidate autoComplete="off">
-        <Grid container spacing={{ xs: 0, lg: 2 }}>
-          <Grid item xs={12} lg={6}>
+        <Grid container spacing={{ xxs: 0, lg: 2 }}>
+          <Grid item xxs={12} lg={6}>
             <FormControl sx={{ width: 1, mb: 3 }} variant="outlined">
               <TextField
                 sx={{ width: 1 }}
@@ -100,7 +100,7 @@ const LoginFormWithSocial = () => {
             </FormControl>
           </Grid>
         </Grid>
-        <Divider sx={{ mb: 3, mt: { xs: 3, lg: 0 } }} textAlign="center">
+        <Divider sx={{ mb: 3, mt: { xxs: 3, lg: 0 } }} textAlign="center">
           <Typography variant="body1" sx={{ fontWeight: 400 }} color="common.greyLight">
             OR
           </Typography>
@@ -140,13 +140,13 @@ const LoginFormWithSocial = () => {
           </Button>
         </Box>
         <Box sx={{ mb: 3 }}>
-          <Grid container alignItems="center" spacing={{ xs: 0, lg: 2 }}>
-            <Grid item xs={12} lg={6} order={{ xs: 2, lg: 1 }}>
+          <Grid container alignItems="center" spacing={{ xxs: 0, lg: 2 }}>
+            <Grid item xxs={12} lg={6} order={{ xxs: 2, lg: 1 }}>
               <Box sx={{ textAlign: "left" }}>
                 <FormControlLabel control={<Checkbox defaultChecked />} label="Remember me" />
               </Box>
             </Grid>
-            <Grid item xs={12} lg={6} order={{ xs: 1, lg: 2 }}>
+            <Grid item xxs={12} lg={6} order={{ xxs: 1, lg: 2 }}>
               <Box sx={{ textAlign: "right" }}>
                 <Link href="/password">
                   <Typography variant="small" color="">
@@ -161,7 +161,7 @@ const LoginFormWithSocial = () => {
           Sign in
         </Button>
         <Box display="flex" alignItems="center" justifyContent="center" sx={{ pt: 3 }}>
-          <Typography> Don't have a account?</Typography>
+          <Typography> Don&#44;t have a account?</Typography>
           <Link href="/signup">Signup</Link>
         </Box>
       </Box>

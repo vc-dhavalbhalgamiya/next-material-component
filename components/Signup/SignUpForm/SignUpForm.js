@@ -2,9 +2,7 @@ import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Checkbox from "@mui/material/Checkbox";
 import FormControl from "@mui/material/FormControl";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
 import TextField from "@mui/material/TextField";
@@ -13,9 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const LoginForm = () => {
+const SignUpForm = () => {
   const [showPassword, setShowPassword] = useState(false);
-
   const handleClickShowPassword = () => {
     setShowPassword((show) => !show);
   };
@@ -36,7 +33,7 @@ const LoginForm = () => {
               width={40}
               height={40}
             />
-            <Typography sx={{ ml: { xxs: 1, sm: 2 } }} variant="h6">
+            <Typography sx={{ ml: 2 }} variant="h6">
               Flowbite
             </Typography>
           </Box>
@@ -51,9 +48,18 @@ const LoginForm = () => {
           }}
         >
           <Typography variant="h5" fontWeight="bold">
-            Sign in to your account
+            Create a New account
           </Typography>
           <Box component="form" sx={{ width: 1, mt: 3 }} noValidate autoComplete="off">
+            <FormControl sx={{ width: 1, mb: 3 }} variant="outlined">
+              <TextField
+                sx={{ width: 1 }}
+                required
+                id="outlined-required"
+                label="Name"
+                size="small"
+              />
+            </FormControl>
             <FormControl sx={{ width: 1, mb: 3 }} variant="outlined">
               <TextField
                 sx={{ width: 1 }}
@@ -63,7 +69,7 @@ const LoginForm = () => {
                 size="small"
               />
             </FormControl>
-            <FormControl sx={{ width: 1 }} variant="outlined">
+            <FormControl sx={{ width: 1, mb: 3 }} variant="outlined">
               <TextField
                 id="outlined-adornment-password"
                 type={showPassword ? "text" : "password"}
@@ -80,23 +86,31 @@ const LoginForm = () => {
                 label="Password"
               />
             </FormControl>
-            <Box display="flex" sx={{ pt: 1 }} justifyContent="flex-end">
-              <Link href="/password">
-                <Typography variant="small" color="">
-                  Forgot your password?
-                </Typography>
-              </Link>
-            </Box>
-            <Box display="flex" sx={{ pb: 3 }} justifyContent="flex-start">
-              <FormControlLabel control={<Checkbox defaultChecked />} label="Remember me" />
-            </Box>
+            <FormControl sx={{ width: 1, mb: 3 }} variant="outlined">
+              <TextField
+                id="outlined-adornment-password"
+                type={showPassword ? "text" : "password"}
+                size="small"
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="end">
+                      <IconButton onClick={handleClickShowPassword}>
+                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                      </IconButton>
+                    </InputAdornment>
+                  ),
+                }}
+                label="Confirm Password"
+              />
+            </FormControl>
             <Button variant="contained" sx={{ width: 1 }}>
-              {" "}
-              Sign in{" "}
+              Create Account
             </Button>
             <Box display="flex" alignItems="center" justifyContent="center" sx={{ pt: 3 }}>
-              <Typography> Don&#44;t have a account?</Typography>
-              <Link href="/signup">Signup</Link>
+              <Typography variant="body1">Don&#44;t have a account?</Typography>
+              <Link href="/login">
+                <Typography variant="body1">Login</Typography>
+              </Link>
             </Box>
           </Box>
         </Box>
@@ -105,4 +119,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default SignUpForm;
