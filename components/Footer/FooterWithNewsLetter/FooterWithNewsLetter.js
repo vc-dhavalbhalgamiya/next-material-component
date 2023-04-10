@@ -42,7 +42,7 @@ const FooterWithNewsLetter = () => {
         <Box sx={{ pt: 5 }}>
           <Grid container spacing={2}>
             {infoBlock.map(({ place, address, phone, email }, index) => (
-              <Grid item xs={12} sm={6} lg={4} key={index}>
+              <Grid item xxs={12} sm={6} lg={4} key={index}>
                 <Typography
                   sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
                   variant="body1"
@@ -56,7 +56,7 @@ const FooterWithNewsLetter = () => {
                     pb: 1,
                     color: "common.greyLight",
                   }}
-                  variant="subtitle1"
+                  variant="body1"
                 >
                   {address}
                 </Typography>
@@ -65,7 +65,7 @@ const FooterWithNewsLetter = () => {
                     a: {
                       textDecoration: "none",
                       transition: "all ease 0.2s",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
@@ -85,15 +85,15 @@ const FooterWithNewsLetter = () => {
                 </List>
               </Grid>
             ))}
-            <Grid item xs={12} sm={6} lg={12}>
+            <Grid item xxs={12} sm={6} lg={12}>
               <Box
                 sx={{
                   display: "flex",
 
                   justifyContent: "center",
                   pt: 3,
-                  flexDirection: { xs: "column", lg: "row" },
-                  alignItems: { xs: "flex-start", lg: "center" },
+                  flexDirection: { xxs: "column", lg: "row" },
+                  alignItems: { xxs: "flex-start", lg: "center" },
                 }}
               >
                 <Typography variant="body1" color="primary.main">
@@ -134,7 +134,7 @@ const FooterWithNewsLetter = () => {
                   width={40}
                   height={40}
                 />
-                <Typography sx={{ ml: { xs: 1, sm: 2 } }} variant="h6">
+                <Typography sx={{ ml: { xxs: 1, sm: 2 } }} variant="h6">
                   Flowbite
                 </Typography>
               </Box>
@@ -142,11 +142,11 @@ const FooterWithNewsLetter = () => {
           </Box>
           <Typography
             sx={{
-              ml: { xs: 1, sm: 2 },
+              ml: { xxs: 1, sm: 2 },
               pt: 2,
-              color: "common.greyLight",
+              color: "grey.600",
             }}
-            variant="subtitle1"
+            variant="body1"
           >
             © 2021-2022 Flowbite™. All Rights Reserved.
           </Typography>

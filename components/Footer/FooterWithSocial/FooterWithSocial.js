@@ -29,7 +29,7 @@ const FooterWithSocial = () => {
     <Box sx={{ py: 5, borderBottom: "1px solid" }}>
       <Container>
         <Grid container>
-          <Grid item xs={6} md={6}>
+          <Grid item xxs={6} md={6}>
             <Box
               sx={{
                 a: { textDecoration: "none", display: "flex" },
@@ -44,14 +44,14 @@ const FooterWithSocial = () => {
                     width={40}
                     height={40}
                   />
-                  <Typography sx={{ ml: { xs: 1, sm: 2 } }} variant="h6">
+                  <Typography sx={{ ml: { xxs: 1, sm: 2 } }} variant="h6">
                     Flowbite
                   </Typography>
                 </Box>
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={6} md={2}>
+          <Grid item xxs={6} md={2}>
             <Typography
               sx={{ textAlign: "left", fontWeight: "bold", mb: 1 }}
               variant="h6"
@@ -82,7 +82,7 @@ const FooterWithSocial = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2}>
+          <Grid item xxs={6} md={2}>
             <Typography
               sx={{ textAlign: "left", fontWeight: "bold", mb: 1 }}
               variant="h6"
@@ -113,7 +113,7 @@ const FooterWithSocial = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2}>
+          <Grid item xxs={6} md={2}>
             <Typography
               sx={{ textAlign: "left", fontWeight: "bold", mb: 1 }}
               variant="h6"
@@ -147,11 +147,11 @@ const FooterWithSocial = () => {
         </Grid>
         <Divider sx={{ my: 3 }} />
         <Grid container>
-          <Grid item xs={12} sm={6} lg={6}>
+          <Grid item xxs={12} sm={6} lg={6}>
             <Box sx={{ a: { textDecoration: "none" } }}>
               <Typography
                 sx={{
-                  textAlign: { sm: "left", xs: "center" },
+                  textAlign: { sm: "left", xxs: "center" },
                   color: "common.greyLight",
                 }}
                 variant="subtitle1"
@@ -160,11 +160,11 @@ const FooterWithSocial = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} lg={6}>
+          <Grid item xxs={12} sm={6} lg={6}>
             <Box
               display="flex"
               sx={{
-                justifyContent: { sm: "flex-end", xs: "center" },
+                justifyContent: { sm: "flex-end", xxs: "center" },
                 a: {
                   width: 30,
                   mx: 1,

@@ -38,12 +38,8 @@ const FooterWithSitemap = () => {
     <Box sx={{ py: 5, borderBottom: "1px solid" }}>
       <Container>
         <Grid container>
-          <Grid item xs={6} md={2.4}>
-            <Typography
-              sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
-              variant="body1"
-              color="primary.main"
-            >
+          <Grid item xxs={6} md={2.4}>
+            <Typography sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }} variant="body1">
               COMPANY
             </Typography>
             <Box sx={{ a: { textDecoration: "none", textAlign: "left" } }}>
@@ -55,12 +51,12 @@ const FooterWithSitemap = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
                 >
-                  <Link to={page.path}>
+                  <Link href={page.path}>
                     <Typography sx={{ textTransform: "capitalize" }} variant="body1">
                       {page.title}
                     </Typography>
@@ -69,12 +65,8 @@ const FooterWithSitemap = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2.4}>
-            <Typography
-              sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
-              variant="body1"
-              color="primary.main"
-            >
+          <Grid item xxs={6} md={2.4}>
+            <Typography sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }} variant="body1">
               Help Center
             </Typography>
             <Box sx={{ a: { textDecoration: "none", textAlign: "left" } }}>
@@ -86,12 +78,12 @@ const FooterWithSitemap = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
                 >
-                  <Link to={page.path}>
+                  <Link href={page.path}>
                     <Typography sx={{ textTransform: "capitalize" }} variant="body1">
                       {page.title}
                     </Typography>
@@ -100,12 +92,8 @@ const FooterWithSitemap = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2.4}>
-            <Typography
-              sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
-              variant="body1"
-              color="primary.main"
-            >
+          <Grid item xxs={6} md={2.4}>
+            <Typography sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }} variant="body1">
               LEGAL
             </Typography>
             <Box sx={{ a: { textDecoration: "none", textAlign: "left" } }}>
@@ -116,13 +104,13 @@ const FooterWithSitemap = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
                   key={page.title}
                 >
-                  <Link to={page.path}>
+                  <Link href={page.path}>
                     <Typography sx={{ textTransform: "capitalize" }} variant="body1">
                       {page.title}
                     </Typography>
@@ -131,12 +119,8 @@ const FooterWithSitemap = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2.4}>
-            <Typography
-              sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
-              variant="body1"
-              color="primary.main"
-            >
+          <Grid item xxs={6} md={2.4}>
+            <Typography sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }} variant="body1">
               COMPANY
             </Typography>
             <Box sx={{ a: { textDecoration: "none", textAlign: "left" } }}>
@@ -148,12 +132,12 @@ const FooterWithSitemap = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
                 >
-                  <Link to={page.path}>
+                  <Link href={page.path}>
                     <Typography sx={{ textTransform: "capitalize" }} variant="body1">
                       {page.title}
                     </Typography>
@@ -162,12 +146,8 @@ const FooterWithSitemap = () => {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={6} md={2.4}>
-            <Typography
-              sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }}
-              variant="body1"
-              color="primary.main"
-            >
+          <Grid item xxs={6} md={2.4}>
+            <Typography sx={{ textAlign: "left", fontWeight: "bold", mb: 1.5 }} variant="body1">
               Download
             </Typography>
             <Box sx={{ a: { textDecoration: "none", textAlign: "left" } }}>
@@ -178,13 +158,13 @@ const FooterWithSitemap = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
                   key={page.title}
                 >
-                  <Link to={page.path}>
+                  <Link href={page.path}>
                     <Typography sx={{ textTransform: "capitalize" }} variant="body1">
                       {page.title}
                     </Typography>
@@ -197,7 +177,7 @@ const FooterWithSitemap = () => {
         <Divider sx={{ my: 3 }} />
         <Box>
           <Box sx={{ a: { textDecoration: "none" } }}>
-            <Link to="/">
+            <Link href="/">
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
@@ -205,7 +185,7 @@ const FooterWithSitemap = () => {
                   width={40}
                   height={40}
                 />
-                <Typography sx={{ ml: { xs: 1, sm: 2 } }} variant="h6">
+                <Typography sx={{ ml: { xxs: 1, sm: 2 } }} variant="h6">
                   Flowbite
                 </Typography>
               </Box>
@@ -213,19 +193,20 @@ const FooterWithSitemap = () => {
           </Box>
           <Typography
             sx={{
-              ml: { xs: 1, sm: 2 },
+              ml: { xxs: 1, sm: 2 },
               pt: 2,
               pb: 3,
               color: "common.greyLight",
+              textAlign: "center",
             }}
-            variant="subtitle1"
+            variant="h6"
           >
             © 2021-2022 Flowbite™. All Rights Reserved.
           </Typography>
           <Box
             display="flex"
             sx={{
-              justifyContent: { xs: "center" },
+              justifyContent: { xxs: "center" },
               a: {
                 width: 30,
                 mx: 1,
@@ -237,13 +218,13 @@ const FooterWithSitemap = () => {
             }}
             alignItems="center"
           >
-            <Link to="/">
+            <Link href="/">
               <FacebookIcon />
             </Link>
-            <Link to="/">
+            <Link href="/">
               <TwitterIcon />
             </Link>
-            <Link to="/">
+            <Link href="/">
               <GoogleIcon />
             </Link>
           </Box>

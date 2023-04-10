@@ -1,9 +1,19 @@
-import { Footer } from "components";
+import {
+  Footer,
+  FooterWithNewsLetter,
+  FooterWithSitemap,
+  FooterWithSitemapAndSocial,
+  Header,
+} from "components";
 
 function HomePage() {
   return (
     <>
+      <Header />
       <Footer />
+      <FooterWithNewsLetter />
+      <FooterWithSitemap />
+      <FooterWithSitemapAndSocial />
     </>
   );
 }

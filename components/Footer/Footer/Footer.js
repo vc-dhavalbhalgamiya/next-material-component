@@ -79,7 +79,7 @@ const Footer = () => {
             color: "common.greyLight",
             textAlign: "center",
           }}
-          variant="subtitle1"
+          variant="body1"
         >
           © 2021-2022 Flowbite™. All Rights Reserved.
         </Typography>

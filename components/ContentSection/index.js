@@ -1,4 +1,4 @@
-export { default as ContentSection } from "./ContentSection";
+export { default as IllustrationWithEmailSignup } from "./IllustrationWithEmailSignup";
 export { default as ContentSectionWithImages } from "./ContentSectionWithImages";
 export { default as HeroBlock } from "./HeroBlock";
 export { default as HeroBlockWithImage } from "./HeroBlockWithImage";

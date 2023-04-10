@@ -1,10 +1,8 @@
-
-
 // SETUP COLORS
 const PRIMARY = {
   lighter: "#F5E7FF",
   light: "#B681FE",
-  main: "#7900E6",
+  main: "#6772fb",
   dark: "#A772FF",
   darker: "#7900E6",
 };
@@ -75,6 +73,6 @@ const palette = {
     ...COMMON,
     text: { primary: GREY[900] },
   },
-} ;
+};
 
 export default palette;

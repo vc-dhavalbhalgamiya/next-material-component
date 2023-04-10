@@ -60,9 +60,9 @@ const FooterWithSitemapAndSocial = () => {
                   textAlign: "left",
                   pt: 2,
                   pb: 3,
-                  color: "common.greyLight",
+                  color: "grey.600",
                 }}
-                variant="subtitle1"
+                variant="body1"
               >
                 Flowbite is a open-source library of over 400+ web components and interactive
                 elements built with the utility classes from Tailwind CSS.
@@ -76,7 +76,7 @@ const FooterWithSitemapAndSocial = () => {
                     mx: 1,
                     transition: "all ease 0.2s",
                     textDecoration: "none",
-                    color: "primary.main",
+                    color: "grey.400",
                     "&:hover": { color: "primary.dark" },
                   },
                 }}
@@ -111,7 +111,7 @@ const FooterWithSitemapAndSocial = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
@@ -142,7 +142,7 @@ const FooterWithSitemapAndSocial = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
@@ -172,7 +172,7 @@ const FooterWithSitemapAndSocial = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}
@@ -203,7 +203,7 @@ const FooterWithSitemapAndSocial = () => {
                     a: {
                       transition: "all ease 0.2s",
                       textDecoration: "none",
-                      color: "primary.main",
+                      color: "grey.400",
                       "&:hover": { color: "primary.dark" },
                     },
                   }}

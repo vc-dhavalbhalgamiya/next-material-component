@@ -2,7 +2,7 @@ import { Container, Grid, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Image from "next/image";
 import React from "react";
-
+import MarketingUi from "../../../public/images/marketing-ui.png";
 const ContentSectionWithImages = () => {
   return (
     <Container>
@@ -18,7 +18,7 @@ const ContentSectionWithImages = () => {
               component="h1"
               variant="h3"
               sx={{
-                typography: { md: "h4", xs: "h5", xl: "h3", fontWeight: "900" },
+                typography: { md: "h4", xxs: "h5", xl: "h3", fontWeight: "900" },
               }}
             >
               We didn't reinvent the wheel
@@ -34,14 +34,14 @@ const ContentSectionWithImages = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} sm={12} md={6} alignItems="center" justifyContent="center">
+        <Grid item xxs={12} sm={12} md={6} alignItems="center" justifyContent="center">
           <Box
             sx={{
               position: "relative",
               width: 1,
-              maxWidth: { xs: 250, md: 1 },
+              maxWidth: { xxs: 250, md: 1 },
               margin: "0 auto",
-              height: { xs: 350, md: 550 },
+              height: { xxs: 350, md: 550 },
             }}
           >
             <Box
@@ -53,12 +53,7 @@ const ContentSectionWithImages = () => {
                 overflow: "hidden",
               }}
             >
-              <Image
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-                alt="img"
-                width={250}
-                height={350}
-              />
+              <Image src={MarketingUi} alt="img" width={250} height={350} />
             </Box>
             <Box
               sx={{
@@ -70,12 +65,7 @@ const ContentSectionWithImages = () => {
                 top: 140,
               }}
             >
-              <Image
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-                alt="img"
-                width={250}
-                height={350}
-              />
+              <Image src={MarketingUi} alt="img" width={250} height={350} />
             </Box>
           </Box>
         </Grid>
