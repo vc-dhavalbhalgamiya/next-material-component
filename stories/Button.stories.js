@@ -2,7 +2,7 @@ import Button from "components/Button";
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 export default {
-  title: "Example/Button",
+  title: "Next-MUI/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {

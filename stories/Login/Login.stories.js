@@ -1,9 +1,9 @@
-import LoginForm from "components/LoginForm";
+import { LoginForm } from "components";
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 export default {
-  title: "Example/LoginForm",
-  component: Login,
+  title: "Next-MUI/LoginForm",
+  component: LoginForm,
   tags: ["autodocs"],
 };
 

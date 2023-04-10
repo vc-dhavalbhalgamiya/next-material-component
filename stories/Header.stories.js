@@ -1,7 +1,7 @@
 import Header from "components/Header";
 
 export default {
-  title: "Example/Header",
+  title: "Next-MUI/Header",
   component: Header,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
   tags: ["autodocs"],
